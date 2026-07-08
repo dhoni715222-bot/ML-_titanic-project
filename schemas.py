@@ -7,5 +7,5 @@ class Passenger(BaseModel):
     pclass:int
     sex:str
 
-    age:optional[float]=None
-    fare:optional[float]=None
+    age:Optional[float]=None
+    fare:Optional[float]=None
