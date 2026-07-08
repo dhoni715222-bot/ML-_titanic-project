@@ -2,7 +2,7 @@ from typing import Optional
 
 from pydantic import BaseModel
 
-class passenger(BaseModel):
+class Passenger(BaseModel):
 
     Pclass:int
     sex:str
