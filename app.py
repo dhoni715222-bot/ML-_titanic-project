@@ -16,7 +16,7 @@ def home():
     }
 
 @app.post("/predict")
-def predict_survival(passenger:passenger):
+def predict_survival(Passenger:passenger):
 
     result=predict(passenger.model_dump())
     return result
