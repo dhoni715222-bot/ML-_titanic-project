@@ -4,7 +4,7 @@ from pydantic import BaseModel
 
 class Passenger(BaseModel):
 
-    Pclass:int
+    pclass:int
     sex:str
 
     age:optional[float]=None
