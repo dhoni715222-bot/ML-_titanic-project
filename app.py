@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 
-from predictor import predict
+from predicted import predict
 from schemas import Passenger
 
 app=FastAPI(
